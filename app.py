@@ -1,5 +1,3 @@
-st.set_page_config(page_title='Friendly PDF', layout = 'wide', page_icon = 'none', initial_sidebar_state = 'auto')
-
 import streamlit as st
 from dotenv import load_dotenv
 import pickle
@@ -12,6 +10,9 @@ from langchain.llms import OpenAI
 from langchain.chains.question_answering import load_qa_chain
 from langchain.callbacks import get_openai_callback
 import os
+
+st.set_page_config(page_title='Friendly PDF', layout = 'wide', page_icon = 'none', initial_sidebar_state = 'auto')
+
 
 email_address = 'ayman.b.dev@gmail.com'
 
