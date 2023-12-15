@@ -28,7 +28,8 @@ with st.sidebar:
 
     ''')
     add_vertical_space(5)
-    st.write('Made with ❤️ by [Ayman](https://discord.gg/yBwcTR7AST)')
+    st.write('Made by Ayman')
+    st.write('Join [my Discord server](https://discord.gg/yBwcTR7AST)')
     st.markdown(f'Send an [email](mailto:{email_address})')
     
 load_dotenv()
