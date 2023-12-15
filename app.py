@@ -32,6 +32,8 @@ with st.sidebar:
     st.write('Join [my Discord server](https://discord.gg/yBwcTR7AST)')
     st.markdown(f'Send an [email](mailto:{email_address})')
     
+    st.set_page_config(page_title='Friendly PDF', layout = 'wide', page_icon = 'none', initial_sidebar_state = 'auto')
+    
     hide_streamlit_style = """
             <style>
             [data-testid="stToolbar"] {visibility: hidden !important;}
