@@ -32,6 +32,14 @@ with st.sidebar:
     st.write('Join [my Discord server](https://discord.gg/yBwcTR7AST)')
     st.markdown(f'Send an [email](mailto:{email_address})')
     
+    hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+    st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+    
 load_dotenv()
 
 def main():
