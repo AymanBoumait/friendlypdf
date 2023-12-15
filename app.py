@@ -35,7 +35,7 @@ with st.sidebar:
 load_dotenv()
 
 def main():
-    st.header("Chat with PDF 💬")
+    st.header("It is time to make the PDF your friend 😺 ")
 
 
     # upload a PDF file
